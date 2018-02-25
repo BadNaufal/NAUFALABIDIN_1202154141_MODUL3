@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="men.zular.naufalabidin_1202154141_modul3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="NAUFALABIDIN_1202154141_MODUL3"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="men.zular.naufalabidin_1202154141_modul3.LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name="men.zular.naufalabidin_1202154141_modul3.MainActivity"
+            android:label="Menu" />
+        <activity
+            android:name="men.zular.naufalabidin_1202154141_modul3.DetailActivity"
+            android:label="Detail"
+            android:parentActivityName="men.zular.naufalabidin_1202154141_modul3.MainActivity" />
+
+
+    </application>
+
+</manifest>
